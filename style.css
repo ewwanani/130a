@@ -49,7 +49,7 @@ tr:hover {
 	padding-right: 10px;
 }
 
-.video-section, .image-section, .about-section, .head-section{
+.video-section, .image-section, .about-section .head-section{
 	height: 100vh;
 	display: flex;
 	align-itms:center;
@@ -72,11 +72,14 @@ tr:hover {
 }
 
 .about-section{
-	background-color: #ccc3c3;
+	height: 100vh;
+	background-image: url("img/indexbg.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .head-section{
-	background-image: url("mg/130aheader.jpg");
+	background-image: url("img/130aheader.jpg");
 	background-size: cover;
 }
 
