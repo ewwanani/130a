@@ -71,7 +71,7 @@
 <script>
     // JavaScript code
     document.addEventListener("DOMContentLoaded", function() {
-        // Example 1: Change the text color of the heading on hover
+        // Change the text color of the heading on hover
         var heading = document.querySelector("h1");
         heading.addEventListener("mouseover", function () {
             heading.style.color = "blue";
@@ -80,7 +80,7 @@
             heading.style.color = "";
         });
 
-        // Example 2: Display a confirm dialog when a lesson link is clicked
+        // Display a confirm dialog when a lesson link is clicked
         var lessonLinks = document.querySelectorAll(".lessonmenu a");
         lessonLinks.forEach(function (link) {
             link.addEventListener("click", function (event) {
@@ -91,7 +91,7 @@
             });
         });
 
-        // Example 3: Animate the text in the container class
+        // Animate the text in the container class
         var containers = document.querySelectorAll(".container");
         containers.forEach(function(container) {
             container.classList.add("container animated-text");
